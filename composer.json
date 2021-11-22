@@ -1,0 +1,15 @@
+{
+  "name": "mrkriskrisu/telegram",
+  "type": "library",
+  "description": "Very simple telegram function. Very simple.",
+  "require": {
+    "php": "^8.0",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "K118\\": "src/"
+    }
+  }
+}
